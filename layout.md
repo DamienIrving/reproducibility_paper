@@ -5,4 +5,5 @@ our_situation.tex
 average_scientist.tex
 my_method.tex
 example_computation_section.tex
+example_log_file.tex
 implications.tex
