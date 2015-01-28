@@ -4,34 +4,6 @@ An example of what a baseline standard for the communication of computational re
 
 \subsection{Computation section}
 
-The first requirement of the proposed communication standard is the inclusion of a short computation section (most likely within or immediately before/after the traditional methods section). The suggested format for that section is based on the recommendations of \citet{Jackson2012}, who point out that there is an important difference between describing the software that was used (i.e. in enough detail to convey exactly which version) and citing it (i.e. so that the authors get appropriate academic credit). As such, the computation section should consist of two parts:
-\begin{enumerate}
-\item A high-level description of the software used, including citations to any papers that have been written about the software. Authors of scientific software are increasingly publishing with journals like the \textit{Journal of Open Research Software}, so it is important to give them a citation (i.e. academic credit) where it's due. This description is also useful in briefly articulating what each software item is actually used for.
-\item Citing a journal paper is not enough, because it does not give sufficient detail as to the version of the software used and the environment within which it was run. The precise details of the operating system and various software packages should then be listed using the following format: name, version number, release date, institution and DOI or URL.
-\item A link to snapshot (see next section)/
-\end{enumerate}
- 
-For \citet{Irving2015} this looks like:
+The first requirement of the proposed communication standard is the inclusion of a short computation section (most likely within or immediately before/after the traditional methods section). The suggested format for that section is based on the recommendations of \citet{Jackson2012}, who point out that there is an important difference between describing the software that was used (i.e. in enough detail to convey exactly which version) and citing it (i.e. so that the authors get appropriate academic credit). As such, the computation section should consist of two distinct parts. The first is a high-level description of the software used, including citations to any papers that have been written about the software. Authors of scientific software are increasingly publishing with journals like the \textit{Journal of Open Research Software}, so it is important to give them a citation (i.e. academic credit) where it's due. This description is also useful in briefly articulating what each software item is actually used for.
 
-\textit{The results in this paper were obtained using a number of different software packages. A collection of command line utilities known as the netCDF Operators (NCO) and Climate Data Operators (CDO) were used to edit the attributes of netCDF files and to perform routine calculations on those files (e.g. the calculation of anomalies and climatologies) respectively. For more complex analysis and visualisation, a Python distribution called Anaconda was used. In addition to the Scientific Python (SciPy) software stack that comes installed by default with Anaconda, additional Python libraries known as Climate Data Analysis Tools \citep[CDAT;][]{Doutriaux2009}, Iris and Cartopy were also used. These software were all installed and run on an Ubuntu operating system. The precise details of the operating system and various software packages are as follows:}
-\begin{itemize}
-\item \textit{Ubuntu. 12.04. April 2012. Canonical Ltd. http://www.ubuntu.com/}
-\item \textit{netCDF Operators. 4.0.8. April 2011. netCDF Operators Project. http://sourceforge.net/projects/nco/}
-\item \textit{Climate Data Operators. 1.5.3. October 2011. Max Plank Institut f{\"u}r Meteorologie. Hamburg, Germany. https://code.zmaw.de/projects/cdo}
-\item \textit{Python. 2.7.8. July 2014. Python Software Foundation. https://www.python.org/}
-\item \textit{Anaconda. 2.0.1. July 2014. Continuum Analytics. Austin, Texas. http://docs.continuum.io/anaconda/}
-\item \textit{cdat-lite. 6.0rc2. June 2011. Program For Climate Model Diagnosis and Intercomparison. Lawrence Livermore National Laboratory, Livermore, California. https://pypi.python.org/pypi/cdat-lite}
-\item \textit{Iris. 1.7.2. October 2014. Met Office. Exeter, England. http://scitools.org.uk/}
-\item \textit{Cartopy. 0.11. June 2014. Met Office. Exeter, England. http://scitools.org.uk/}
-\end{itemize}
-
-\textit{A supplementary file has been provided for each figure in this paper, outlining the computational steps performed in its creation (i.e. from initial download of the ERA-Interim data through to the final generation of the plot). The code referred to in those supplementary files can be found HERE (\textit{FIXME: Generate DOI for my code repository and provide link here})}
- 
-
-\subsection{Snapshot of code repository}
-
-Needs to be consistent with coding best practices \citep{Wilson2014a}
-
-\subsection{Log files}
-
-Blah.
+The second part of the computation section should provide more specific details regarding the precise version of the software used and the environment in which it was run. These details should be listed in the following format: name, version number, release date, institution and DOI or URL. Finally, the computational section should also provide a link to a snapshot of the code (Section X) referred to in the supplementary log files (Section X). An example computation section is shown in Box 2.  
