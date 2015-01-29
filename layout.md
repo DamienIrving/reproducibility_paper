@@ -7,3 +7,4 @@ my_method.tex
 example_computation_section.tex
 example_log_file.tex
 implications.tex
+conclusion.tex
