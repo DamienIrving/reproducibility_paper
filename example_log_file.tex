@@ -23,10 +23,11 @@ Thu Aug 21 10:14:59 2014: cdo mergetime ../download/va_ERAInterim_500hPa_6hourly
 
 Thu Aug 21 10:13:35 2014: ncpdq -P upk va_ERAInterim_500hPa_6hourly-2009-2014_native.nc va_ERAInterim_500hPa_6hourly-2009-2014_native_unpacked.nc
 
-2014-08-20 23:16:22 GMT: Download of ERA_Interim, 6 hourly, 500hPa meridional wind (va) data. 
+2014-08-20 23:16:22 GMT: Download of ERA_Interim, 6 hourly, 500hPa meridional wind (va) data 
 \end{lstlisting}
 
-Features of the log file include:
+The most important feature of this log file is that besides a slight amendment to the initial download entry (the default text provided by the ERA-Interim data server was not particularly self explanatory), no manual editing of its contents has been done. This means that if a reviewer asks for a slight modification to the figure, the regeneration of a new log file is trivial. By resisting the urge to clean up the file (e.g. one might consider removing path details like \verb|/mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/|) it doubles as a record that is highly useful to the author in retracing their own steps (e.g. they can use it to recall where they stored the output data on their local machine). Other features of note include:
 \begin{itemize}
-\item Discuss how the use of unique revision numbers / hash values is a nice addition to the NCO/CDO model, so you know the exact state of the repository when that step was executed.
+\item Since it cannot be assumed that the latest version of any code repository was used to generate all the results in a paper, the unique revision number / hash value is given whenever a script written by the author was used.
+\item When more than one input file is passed to an NCO or CDO function, the history of only one of those files 
 \end{itemize}
