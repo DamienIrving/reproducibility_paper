@@ -1,6 +1,6 @@
 \textbf{Box 3: Example log file}
 
-The following is the contents of the log file corresponding to Figure 1. 
+The following is the log file corresponding to Figure 1. It shows every command line entry used in creating the figure from the initial download of the underlying data to the final generation of the figure.  
 
 \begin{lstlisting}[language=bash] 
 Sat Nov 29 06:09:28 2014: /usr/local/anaconda/bin/python /home/STUDENT/dbirving/phd/visualisation/plot_hilbert.py /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/va_ERAInterim_500hPa_030day-runmean_native.nc va hilbert_zw3_w19_va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-22_2006-07-29.png 1 2 --latitude -55 --dates 1986-05-22 2006-07-29 --wavenumbers 1 9 --figure_size 15 6 (Git hash: 8a42fff) 
@@ -23,6 +23,10 @@ Thu Aug 21 10:14:59 2014: cdo mergetime ../download/va_ERAInterim_500hPa_6hourly
 
 Thu Aug 21 10:13:35 2014: ncpdq -P upk va_ERAInterim_500hPa_6hourly-2009-2014_native.nc va_ERAInterim_500hPa_6hourly-2009-2014_native_unpacked.nc
 
-2014-08-20 23:16:22 GMT: Initial download of ERA-Interim, 6 hourly, 500 hPa meridional wind (va) data.
+2014-08-20 23:16:22 GMT by grib_to_netcdf-1.13.0: grib_to_netcdf /data/data01/netcdf-atls04-20140820231025-46030-4696.target -o /data/data01/netcdf-atls04-20140820231553-46030-4697.nc
 \end{lstlisting}
 
+Features of the log file include:
+\begin{itemize}
+\item Blah
+\end{itemize}
