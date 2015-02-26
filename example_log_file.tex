@@ -2,12 +2,12 @@
 
 The following is the log file corresponding to Figure \ref{fig:example_figure}. It shows every command line entry used in creating the figure from the initial download of the underlying data to the final generation of the figure. Details regarding the software and code referred to in the log file are provided in the example computation section (Box 2).
 
-\begin{verbatim} 
-Sat Nov 29 06:09:28 2014: /usr/local/anaconda/bin/python /home/STUDENT/dbirving/phd/visualisation/plot_hilbert.py /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/va_ERAInterim_500hPa_030day-runmean_native.nc va hilbert_zw3_w19_va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-22_2006-07-29.png 1 2 --latitude -55 --dates 1986-05-22 2006-07-29 --wavenumbers 1 9 --figure_size 15 6 (Git hash: 8a42fff) 
+\begin{verbatim}
+Fri Feb 27 10:28:27 2015: /usr/local/anaconda/bin/python /home/STUDENT/dbirving/climate-analysis/visualisation/plot_hilbert.py /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/va_ERAInterim_500hPa_030day-runmean_native.nc va /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/zw3/figures/hilbert_zw3_w19_va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-22_2006-07-29.png 1 2 --latitude -55 --dates 1986-05-22 2006-07-29 --wavenumbers 1 9 --figure_size 15 6 (Git hash: 6eac164) 
 
-Fri Nov 28 16:36:21 2014: ncatted -O -a axis,time,c,c,T /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/va_ERAInterim_500hPa_030day-runmean_native.nc
+Tue Dec 9 09:07:10 2014: ncatted -O -a axis,time,c,c,T /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/va_ERAInterim_500hPa_030day-runmean_native.nc 
 
-Fri Nov 28 16:25:18 2014: cdo runmean,30 /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/va_ERAInterim_500hPa_daily_native.nc /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/va_ERAInterim_500hPa_030day-runmean_native.nc
+Tue Dec 09 08:54:50 2014: cdo runmean,30 /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/va_ERAInterim_500hPa_daily_native.nc /mnt/meteo0/data/simmonds/dbirving/ERAInterim/data/va_ERAInterim_500hPa_030day-runmean_native.nc
 
 Mon Nov 10 17:15:49 2014: ncatted -O -a level,va,o,c,500hPa va_ERAInterim_500hPa_daily_native.nc
 
