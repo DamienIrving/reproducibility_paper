@@ -6,7 +6,7 @@ average_scientist.tex
 my_method.tex
 example_computation_section.tex
 example_log_file.tex
-figures/hilbert_zw3_w19_va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-22_2006-07-29/hilbert_zw3_w19_va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-22_2006-07-29.png
+figures/hilbert_zw3_w19_va_ERAInterim_500hPa_030day-runmean_native-55S_1986-05-22_2006-07-29/Figure1.png
 implications.tex
 proposed_guidelines.tex
 conclusion.tex
