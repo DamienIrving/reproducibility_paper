@@ -1,4 +1,4 @@
-\section{A possible solution}
+\section{A reproducible paper}
 
 An example of how a regular weather/climate scientist might communicate their computational results was recently published in the \textit{Journal of Climate} \citep{Irving2016}. The approach adds a short computation section within the paper (Box 2), which briefly cites the major software packages used in the research before pointing the reader to three key supplementary items: (1) a more detailed description of the software used, (2) a version controlled and publicly available code repository and (3) a collection of supplementary log files that capture the data processing steps taken in producing each key result. The code repository is hosted at GitHub (a popular code sharing website), while the detailed software description and log files are hosted at Figshare \citep{Irving2015}, which is a site where researchers commonly archive the `long tail' of their research (e.g. supplementary figures, code and data). 
 
@@ -30,4 +30,5 @@ The most important feature of the log file shown in Box 3 is that besides a slig
 \item Since it cannot be assumed that the latest version of any code repository was used to generate all the results in a paper, the unique revision number / hash value is given whenever a script written by the author was used (languages like Python, R and MATLAB are able to link with version control systems like Git, so the retrieval of the revision number can be automated).
 \item When more than one input file is passed to an NCO or CDO function, the history of only one of those files is retained in the output file. On occasions where this is not appropriate (i.e. where the histories of the multiple input files are very different), it is important to ensure that the history of all input files is retained. There are a number of examples of this in the log files provided by \citet{Irving2015}. 
 \end{itemize}
+  
   
