@@ -3,7 +3,6 @@ capsule.tex
 introduction.tex
 reproducible_paper.tex
 paper_components_software.tex
-paper_code_log.tex
 implications.tex
 proposed_guidelines.tex
 conclusion.tex
