@@ -3,7 +3,7 @@ capsule.tex
 introduction.tex
 reproducible_paper.tex
 minimum_standard.tex
-conclusion.tex
+discussion.tex
 average_scientist.tex
 example_computation_section.tex
 example_log_file.tex
