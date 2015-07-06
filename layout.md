@@ -3,7 +3,7 @@ capsule.tex
 introduction.tex
 paper_rationale.tex
 average_scientist.tex
-my_method.tex
+paper_components_software.tex
 paper_code_log.tex
 example_computation_section.tex
 example_log_file.tex
