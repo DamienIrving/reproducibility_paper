@@ -1,4 +1,3 @@
-abstract.tex
 capsule.tex
 introduction.tex
 reproducible_paper.tex
