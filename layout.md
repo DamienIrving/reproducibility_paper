@@ -2,7 +2,7 @@ abstract.tex
 capsule.tex
 introduction.tex
 reproducible_paper.tex
-implications.tex
+minimum_standard.tex
 proposed_guidelines.tex
 conclusion.tex
 average_scientist.tex
