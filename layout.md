@@ -1,7 +1,7 @@
 abstract.tex
 capsule.tex
 introduction.tex
-paper_rationale.tex
+reproducible_paper.tex
 paper_components_software.tex
 paper_code_log.tex
 implications.tex
