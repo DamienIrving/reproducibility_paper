@@ -1,7 +1,7 @@
 abstract.tex
 capsule.tex
 introduction.tex
-our_situation.tex
+paper_rationale.tex
 average_scientist.tex
 my_method.tex
 example_computation_section.tex
