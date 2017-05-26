@@ -1,6 +1,5 @@
 abstract.tex
 capsule.tex
-citation.tex
 introduction.tex
 reproducible_paper.tex
 minimum_standard.tex
